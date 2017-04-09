@@ -6,6 +6,7 @@ import nl.kevinwilmsen.Commands.Myarmor;
 import nl.kevinwilmsen.Commands.Myinfo;
 import nl.kevinwilmsen.Commands.Playerarmor;
 import nl.kevinwilmsen.Commands.Playerinfo;
+import nl.kevinwilmsen.Utill.Metrics;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
@@ -27,6 +28,7 @@ public class Main extends JavaPlugin {
     l.info("Website: " + getDescription().getWebsite());
     l.info("-----------------------------------------------------");
     Commands();
+    Metrics metrics = new Metrics(this);
 }
 @Override
     public void onDisable(){
