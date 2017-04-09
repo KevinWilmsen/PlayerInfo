@@ -1,0 +1,14 @@
+name: PlayerInfo
+author: Kevin Wilmsen
+version: 1.0 Release
+website: https://www.kevinwilmsen.nl
+main: nl.kevinwilmsen.Main
+commands:
+  PlayerInfo:
+    description: Get info about a player
+  Myinfo:
+    description: Get your own information.
+  Myarmor:
+    description: Get your armor information.
+  playerarmor:
+    description: Get armor info about a player.
